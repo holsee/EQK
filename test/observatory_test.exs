@@ -1,6 +1,8 @@
 defmodule ObservatoryTest do
   use ExUnit.Case
 
+  doctest Observatory
+
   @name "Observatory of the Great Leader"
   @country "North Kerea"
   @year 2016
